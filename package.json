@@ -1,0 +1,35 @@
+{
+  "name": "sort-dom",
+  "description": "Sort a DOM node's children",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "sliced": "0.0.5"
+  },
+  "devDependencies": {
+    "beefy": "^1.0.0",
+    "browserify": "^3.30.1"
+  },
+  "scripts": {
+    "start": "beefy --open -b browserify example.js:bundle.js",
+    "maker": "browserify example.js -o bundle.js"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/sort-dom"
+  },
+  "bugs": {
+    "url": "https://github.com/hughsk/sort-dom/issues"
+  },
+  "homepage": "https://github.com/hughsk/sort-dom",
+  "keywords": [
+    "sort",
+    "dom",
+    "nodes",
+    "elements",
+    "compare",
+    "comparator"
+  ]
+}
